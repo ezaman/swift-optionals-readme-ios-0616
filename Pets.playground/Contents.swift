@@ -2,6 +2,7 @@ var petName: String?
 petName = "Scooter 🐢"
 print(petName)
 
+//to unwrap, you need to figure out if the value even exists, then the actual value.
 if petName != nil {
     print("My friend's pet is \(petName)")
 } else {
